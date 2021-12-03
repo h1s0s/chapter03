@@ -36,14 +36,14 @@ public class Rectangle {
 		return "Rectangle [width=" + width + ", height=" + height + "]";
 	}
 	
-	@Override
-	public boolean equals(Object obj) {
+	//@Override
+	/*public boolean equals(Object obj) {
 		if(this.width == ((Rectangle)obj).width && this.height == ((Rectangle)obj).height) {
 			return true;
 		} else {
 			return false;
-		}
+		}*/
 	}
 	
 	
-}
+
